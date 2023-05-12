@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:ayush/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,13 +12,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Material(
-          child: Center(
-              child: Container(
-        // ignore: prefer_const_constructors
-        child: Text("Welcome to flutter tutorial "),
-      ))),
-    );
+    return MaterialApp(home: HomePage());
   }
 }
